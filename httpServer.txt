@@ -1,0 +1,5 @@
+CLS
+set wrkdir=D:\Tutorials
+pushd %wrkdir%
+python -m http.server 8003
+PAUSE
